@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T07:54:50 IST" name="Suite" finished-at="2025-08-08T07:55:19 IST" duration-ms="29038">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T07:54:50 IST" name="Test" finished-at="2025-08-08T07:55:19 IST" duration-ms="29038">
+      <class name="tests.TC_001ValidLoginTest">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:49 IST" name="reportInitilization" finished-at="2025-08-08T07:54:50 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitilization -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:50 IST" name="setUp" finished-at="2025-08-08T07:54:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:50 IST" name="testDetails" finished-at="2025-08-08T07:54:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:50 IST" name="browserLaunch" finished-at="2025-08-08T07:54:54 IST" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:54 IST" name="validLogin" data-provider="readData" finished-at="2025-08-08T07:54:55 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janitri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janitri@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:54:55 IST" name="browserClose" finished-at="2025-08-08T07:54:55 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.TC_001ValidLoginTest@3c9754d8]" started-at="2025-08-08T07:55:19 IST" name="closeReport" finished-at="2025-08-08T07:55:19 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- tests.TC_001ValidLoginTest -->
+      <class name="tests.TC_003UITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_003UITest@40005471]" started-at="2025-08-08T07:54:50 IST" name="setup" finished-at="2025-08-08T07:54:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_003UITest@40005471]" started-at="2025-08-08T07:55:13 IST" name="testDetails" finished-at="2025-08-08T07:55:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_003UITest@40005471]" started-at="2025-08-08T07:55:13 IST" name="browserLaunch" finished-at="2025-08-08T07:55:16 IST" duration-ms="3340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="checkPasswordMaskingAndUnmasking(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003UITest@40005471]" started-at="2025-08-08T07:55:16 IST" name="checkPasswordMaskingAndUnmasking" data-provider="readData" finished-at="2025-08-08T07:55:18 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janitri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janitri@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordMaskingAndUnmasking -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_003UITest@40005471]" started-at="2025-08-08T07:55:18 IST" name="browserClose" finished-at="2025-08-08T07:55:19 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- tests.TC_003UITest -->
+      <class name="tests.TC_002InvalidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:54:50 IST" name="setup" finished-at="2025-08-08T07:54:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:54:55 IST" name="testDetails" finished-at="2025-08-08T07:54:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:54:55 IST" name="browserLaunch" finished-at="2025-08-08T07:54:59 IST" duration-ms="3875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:54:59 IST" name="invalidLogin" data-provider="readData" finished-at="2025-08-08T07:54:59 IST" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreeja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sreeja@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:00 IST" name="browserClose" finished-at="2025-08-08T07:55:00 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:00 IST" name="browserLaunch" finished-at="2025-08-08T07:55:04 IST" duration-ms="3585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:04 IST" name="invalidLogin" data-provider="readData" finished-at="2025-08-08T07:55:04 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:04 IST" name="browserClose" finished-at="2025-08-08T07:55:04 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:04 IST" name="browserLaunch" finished-at="2025-08-08T07:55:08 IST" duration-ms="3605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:08 IST" name="invalidLogin" data-provider="readData" finished-at="2025-08-08T07:55:08 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:08 IST" name="browserClose" finished-at="2025-08-08T07:55:09 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:09 IST" name="browserLaunch" finished-at="2025-08-08T07:55:12 IST" duration-ms="3742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:12 IST" name="invalidLogin" data-provider="readData" finished-at="2025-08-08T07:55:13 IST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kavitha12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:tests.TC_002InvalidLoginTest@3d285d7e]" started-at="2025-08-08T07:55:13 IST" name="browserClose" finished-at="2025-08-08T07:55:13 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- tests.TC_002InvalidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

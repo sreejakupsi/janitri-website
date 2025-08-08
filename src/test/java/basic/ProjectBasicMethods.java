@@ -19,7 +19,7 @@ public class ProjectBasicMethods extends Utility{
 	 
 	@BeforeSuite
 	public void reportInitilization() {
-		String path= System.getProperty("user.dir")+"\\report\\JanitriReport";
+		String path= System.getProperty("user.dir")+"\\report";
 		ExtentSparkReporter reporter= new ExtentSparkReporter(path);
 		
 		//to capture test data
